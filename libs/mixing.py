@@ -1,10 +1,10 @@
 import random
 
+
 # ============================
 def change_numbers(string):
     numbers = list('123456789')
     random.shuffle(numbers)
-    #print(numbers)
 
     out = ''
     for c in string:
@@ -12,9 +12,6 @@ def change_numbers(string):
             out += c
         else:
             out += numbers[int(c)-1]
-
-    #print(string)
-    #print(out)
 
     return out
 
@@ -31,10 +28,7 @@ def flip_rows(string):
             for j in range(9):
                 c = string[k*3+i + 9*j]
                 out[rows[k]*3+i + 9*j] = c
-                #print('{} -> {}'.format(k*3+i+9*j, rows[k]*3+i+9*j))
 
-    #print(string)
-    #print(''.join(out))
     return ''.join(out)
 
 
@@ -56,9 +50,7 @@ def flip_cols(string):
 
 # ============================
 def rotate(string):
-    angle = random.randint(0,3)
-
-    #print(angle)
+    angle = random.randint(0, 3)
 
     if 0 == angle:
         out = list(string)
@@ -75,4 +67,3 @@ def rotate(string):
                     out[j+9*(8-i)] = string[i+9*j]
 
     return ''.join(out)
-        
