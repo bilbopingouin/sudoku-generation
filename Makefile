@@ -14,4 +14,4 @@ unittests:
 	@echo "...done"
 
 report:
-	@python3 -m coverage report -m | grep sudoku.py
+	@python3 -m coverage report -m | grep libs

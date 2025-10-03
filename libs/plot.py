@@ -6,7 +6,8 @@ def graph(string):
         for j in range(9):
             if (j % 3 == 0):
                 print('| ', end='')
-            c = string[i+j*9]
+            c = string[j+i*9]
+
             if '0' == c:
                 print('_', end=' ')
             else:

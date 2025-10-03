@@ -17,9 +17,9 @@ def change_numbers(string):
 
 
 # ============================
-def flip_rows(string):
-    rows = [0, 1, 2]
-    random.shuffle(rows)
+def flip_cols(string):
+    cols = [0, 1, 2]
+    random.shuffle(cols)
 
     out = [''] * 81
 
@@ -27,13 +27,13 @@ def flip_rows(string):
         for i in range(3):
             for j in range(9):
                 c = string[k*3+i + 9*j]
-                out[rows[k]*3+i + 9*j] = c
+                out[cols[k]*3+i + 9*j] = c
 
     return ''.join(out)
 
 
 # ============================
-def flip_cols(string):
+def flip_rows(string):
     rows = [0, 1, 2]
     random.shuffle(rows)
 
@@ -42,8 +42,8 @@ def flip_cols(string):
     for k in range(3):
         for i in range(9):
             for j in range(3):
-                c = string[i + 9*(j+k*3)]
-                out[i + 9*(j+rows[k]*3)] = c
+                c = string[i + 9*(j+rows[k]*3)]
+                out[i + 9*(j+k*3)] = c
 
     return ''.join(out)
 
