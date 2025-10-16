@@ -1,8 +1,19 @@
+"""
+Provide functions to shuffle the sudoku using mathematical symmetries
+"""
 import random
 
 
 # ============================
 def change_numbers(string):
+    """
+    Shuffle the numbers
+
+    :param string: input sudoku grid
+    :type string: str
+    :return: output sudoku grid
+    :rtype: str
+    """
     numbers = list('123456789')
     random.shuffle(numbers)
 
@@ -18,6 +29,14 @@ def change_numbers(string):
 
 # ============================
 def flip_cols(string):
+    """
+    Random flip the stack columns
+
+    :param string: Input sudoku grid
+    :type string: str
+    :return: Output sudoku grid
+    :rtype: str
+    """
     cols = [0, 1, 2]
     random.shuffle(cols)
 
@@ -34,6 +53,14 @@ def flip_cols(string):
 
 # ============================
 def flip_rows(string):
+    """
+    Random flip the stack rows
+
+    :param string: Input sudoku grid
+    :type string: str
+    :return: Output sudoku grid
+    :rtype: str
+    """
     rows = [0, 1, 2]
     random.shuffle(rows)
 
@@ -50,6 +77,14 @@ def flip_rows(string):
 
 # ============================
 def rotate(string):
+    """
+    Rotate the sudoku by a random number of quarter turns
+
+    :param string: Input sudoku grid
+    :type string: str
+    :return: Output sudoku grid
+    :rtype: str
+    """
     angle = random.randint(0, 3)
 
     if 0 == angle:

@@ -1,4 +1,17 @@
+"""
+Provide a single function to print the sudoku in the shell
+"""
+
+
 def graph(string):
+    """
+    Print the sudoku
+
+    :param string: A string containing a sudoku. It should
+                   contain 81 digits 0 (blank space) to 9.
+                   It should be contained rows by rows.
+    :type string: str
+    """
     print('=============')
     for i in range(9):
         if i % 3 == 0:

@@ -13,6 +13,13 @@ import plot       # noqa: E402
 # Main function
 # ============================
 def main():
+    """
+    Main function of the program.
+
+    :param None
+    :return None
+
+    """
     args = arguments.parse()
 
     # Get the original sudoku

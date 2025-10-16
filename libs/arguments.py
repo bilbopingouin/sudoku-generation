@@ -1,8 +1,31 @@
+"""
+This library handles the command-line user interface.
+
+The following options are available
+
+.. code-block::
+
+    usage: sudoku.py [-h] [-i INPUT] [-d]
+
+    Sudoku generator
+    
+    options:
+        -h, --help            show this help message and exit
+        -i INPUT, --input INPUT
+                              Input Sudoku String
+        -d, --debug           Activate some output debug
+"""
 import argparse
 
 
 # ============================
 def parse():
+    """
+    Parse the input parameters based on `argparse`
+
+    :return: List of parameters
+    :rtype: dict
+    """
     parser = argparse.ArgumentParser(
             description='Sudoku generator')
 
