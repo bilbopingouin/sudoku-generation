@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: ''
+level: 1.4
+links: []
+normative: true
+ref: ''
+reviewed: yZg--8FVWc_Qof2GWKh3bVkQebkwKVT3IrCUvKtbKt4=
+text: |
+  Default grid
+  If the user does not specify a start grid, the program shall provide a default option.

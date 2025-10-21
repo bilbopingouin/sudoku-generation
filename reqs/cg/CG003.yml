@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.2
+links:
+- SR006: DhaqkFXFFGvxRm8pjS9VNTe0K78Afv4_5v-DBBD90cQ=
+normative: true
+ref: ''
+reviewed: X-3ggBbyrxB9z6Kc7yiBK1Kggps0--QBKSvX1p2KcAg=
+text: |
+  Unit / Module testing
+  The project shall use unit and module testing with a line coverage above 90%

@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: ''
+level: 1.0
+links:
+- SR001: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  The output shall be the result of one or more random function(s).

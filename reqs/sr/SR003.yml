@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: ''
+level: 1.2
+links: []
+normative: true
+ref: ''
+reviewed: y9DoH9J83YF-UM2Tc-nat55g7Us4ndZu996hozGBFjk=
+text: |
+  Symmetries
+  The program shall use the sudoku mathematical symmetries to generate a sudoku grid.

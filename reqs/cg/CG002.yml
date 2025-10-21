@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.1
+links:
+- SR006: DhaqkFXFFGvxRm8pjS9VNTe0K78Afv4_5v-DBBD90cQ=
+normative: true
+ref: ''
+reviewed: 5z3Yy9rdVA5c49PpzaO6176_ORtfZ_Heq8iIchmXhBo=
+text: |
+  Syntax
+  The code shall follow the PEP8 guidelines

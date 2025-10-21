@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.6
+links:
+- DR006: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Symmetries
+  The transformation module shall include a function which can exchange the digits. E.g. from 123456789 to 352689147.

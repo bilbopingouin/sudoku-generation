@@ -1,0 +1,13 @@
+active: true
+derived: false
+header: ''
+level: 1.0
+links: []
+normative: true
+ref: ''
+reviewed: D6z3qMIVXcwRXGEQUmLUWj1CJAIBPB4EIjCHLmyOGhs=
+text: |
+  Generate random sudoku
+  The program shall be able to generate random sudokus.
+
+  This means that running the same program several times after another should generate a different sudoku grid each time.

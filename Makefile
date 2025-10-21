@@ -5,7 +5,7 @@ test: syntax unittests
 
 syntax:
 	@echo "Checking the syntax..."
-	@python3 -m flake8
+	@python3 -m flake8 --exclude "./venv/*"
 	@echo "...done"
 
 unittests:

@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.4
+links:
+- SR002: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  Print out
+  The programm shall provide at least one method for a graphical visualisation of the final sudoku

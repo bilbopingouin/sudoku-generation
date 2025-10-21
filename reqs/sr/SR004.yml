@@ -1,0 +1,11 @@
+active: true
+derived: false
+header: ''
+level: 1.3
+links: []
+normative: true
+ref: ''
+reviewed: Jz_N8iQ_s4bDZTjt8K0noeJjVUB8Yx2W0EzbVQBgwBw=
+text: |
+  Start grid
+  The program shall allow the user to enter a given start sudoku.

@@ -8,7 +8,7 @@ The following options are available
     usage: sudoku.py [-h] [-i INPUT] [-d]
 
     Sudoku generator
-    
+
     options:
         -h, --help            show this help message and exit
         -i INPUT, --input INPUT

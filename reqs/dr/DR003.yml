@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.2
+links:
+- DR002: null
+normative: true
+ref: ''
+reviewed: null
+text: |
+  UI default grid
+  The user interface shall provide a default start grid if the user did not set one

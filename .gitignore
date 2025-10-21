@@ -1,1 +1,8 @@
+# For the coverage calculation
 .coverage
+
+# Binaries
+__pycache__
+
+# venv
+.venv

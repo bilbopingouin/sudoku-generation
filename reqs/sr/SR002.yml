@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.1
+links: []
+normative: true
+ref: ''
+reviewed: I9YSLgXKHWrWP2SYEY0T8OLj4tbor3IHz949PBTyMBI=
+text: |
+  Provide a grid
+  The program shall provide a generated sudoku to the user.
+  In some form, the user shall be able to visualise the generated sudoku.

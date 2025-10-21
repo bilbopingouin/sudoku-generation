@@ -1,0 +1,12 @@
+active: true
+derived: false
+header: ''
+level: 1.0
+links:
+- SR006: DhaqkFXFFGvxRm8pjS9VNTe0K78Afv4_5v-DBBD90cQ=
+normative: true
+ref: ''
+reviewed: b3gxeLOUlfQnSuPd7ozEAsS2-TodMPL2GGkkRO8Rsqk=
+text: |
+  Language
+  The programm shall be written in python
