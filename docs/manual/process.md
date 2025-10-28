@@ -12,11 +12,11 @@
     - [x] Pre-commit hook for git
     - [x] Workflow on github
     - [x] Badge on readme.md
-  - [ ] Unit testing
+  - [x] Unit testing
     - [x] Makefile target for running unit testing
     - [x] Makefile target for unit testing coverage
     - [x] Pre-push hook for running the unit testing
     - [x] Workflows on github for unit testing
-    - [ ] workflow on github for unit testing coverage
+    - [x] workflow on github for unit testing coverage
     - [x] Badge for unit testing
-    - [ ] Badge for unit testing coverage
+    - [x] Badge for unit testing coverage
