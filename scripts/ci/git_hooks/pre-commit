@@ -1,0 +1,14 @@
+# Static analysis of the python code
+# Based on https://medium.com/@subhampradhan966/automating-code-quality-using-flake8-as-a-pre-commit-and-pre-push-hook-in-git-a5c084dc63dc
+
+# Find the python files that will be included in the commit
+files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
+
+if python3 -m flake8 $files > /dev/null 2>&1; then
+    : # No issues found, do nothing
+    exit 0
+else
+    echo FLAKE8 found issues in your code. Please fix them before commiting. >&2
+    echo Please run 'make syntax'
+    exit 1
+fi
