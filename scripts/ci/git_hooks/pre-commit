@@ -4,6 +4,12 @@
 # Find the python files that will be included in the commit
 files=$(git diff --cached --name-only --diff-filter=ACM | grep '\.py$')
 
+if [ -z $files ]:
+then
+    exit 0
+fi
+
+
 if python3 -m flake8 $files > /dev/null 2>&1; then
     : # No issues found, do nothing
     exit 0
@@ -12,3 +18,5 @@ else
     echo Please run 'make syntax'
     exit 1
 fi
+
+

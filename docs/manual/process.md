@@ -1,0 +1,20 @@
+# Process
+
+- [ ] Requirements
+  - [x] Requirements documentation using doorstop
+  - [ ] Printing the requirements on documents in github
+- [ ] Documentation
+  - [x] Documentation using sphinx
+  - [ ] Automatic generation of the documentation when pushing 
+- [ ] Quality
+  - [x] Static analysis of the code
+    - [x] Makefile target to analyse the code
+    - [x] Pre-commit hook for git
+    - [x] Workflow on github
+    - [x] Badge on readme.md
+  - [ ] Unit testing
+    - [x] Makefile target for running unit testing
+    - [x] Makefile target for unit testing coverage
+    - [ ] Pre-push hook for running the unit testing
+    - [ ] Workflows on github for unit testing & coverage
+    - [ ] Badges for unit testing & coverage
