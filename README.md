@@ -18,4 +18,5 @@ The status of the implementation can be found [here](docs/manual/process.md).
 
 | Name | Result | Description |
 | ---- | ------ | ----------- |
-| Flake 8 | [![Flake8](https://github.com/bilbopingouin/sudoku-generation/actions/workflows/flake8.yml/badge.svg?branch=main)](https://github.com/bilbopingouin/sudoku-generation/actions/workflows/flake8.yml) | Static analysis of the code |
+| Flake8 | [![Flake8](https://github.com/bilbopingouin/sudoku-generation/actions/workflows/flake8.yml/badge.svg?branch=main)](https://github.com/bilbopingouin/sudoku-generation/actions/workflows/flake8.yml) | Static analysis of the code |
+| PyTest | [![PyTest](https://github.com/bilbopingouin/sudoku-generation/actions/workflows/pytest.yml/badge.svg?branch=main)](https://github.com/bilbopingouin/sudoku-generation/actions/workflows/pytest.yml) | Unit testing |

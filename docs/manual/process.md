@@ -15,6 +15,8 @@
   - [ ] Unit testing
     - [x] Makefile target for running unit testing
     - [x] Makefile target for unit testing coverage
-    - [ ] Pre-push hook for running the unit testing
-    - [ ] Workflows on github for unit testing & coverage
-    - [ ] Badges for unit testing & coverage
+    - [x] Pre-push hook for running the unit testing
+    - [x] Workflows on github for unit testing
+    - [ ] workflow on github for unit testing coverage
+    - [x] Badge for unit testing
+    - [ ] Badge for unit testing coverage

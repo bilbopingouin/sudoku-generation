@@ -12,10 +12,11 @@ fi
 
 if python3 -m flake8 $files > /dev/null 2>&1; then
     : # No issues found, do nothing
+    echo INFO: syntax accepted
     exit 0
 else
-    echo FLAKE8 found issues in your code. Please fix them before commiting. >&2
-    echo Please run 'make syntax'
+    echo ERR: FLAKE8 found issues in your code. Please fix them before commiting. >&2
+    echo ERR: Please run 'make syntax'
     exit 1
 fi
 

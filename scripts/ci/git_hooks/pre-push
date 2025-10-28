@@ -1,0 +1,10 @@
+if python3 -m pytest --capture=sys > /dev/null 2>&1
+then
+    # Ok
+    echo "INFO: unit tests run successfully"
+    exit 0
+else
+    echo "ERR: Unit testing failed." >&2
+    echo "ERR: Please run 'make unittests'"
+    exit 1
+fi 
