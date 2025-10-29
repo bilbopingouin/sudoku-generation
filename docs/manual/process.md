@@ -1,12 +1,12 @@
 # Process
 
-- [ ] Requirements
+- [x] Requirements
   - [x] Requirements documentation using doorstop
-  - [ ] Printing the requirements on documents in github
+  - [x] Printing the requirements on documents in github
 - [ ] Documentation
   - [x] Documentation using sphinx
   - [ ] Automatic generation of the documentation when pushing 
-- [ ] Quality
+- [x] Quality
   - [x] Static analysis of the code
     - [x] Makefile target to analyse the code
     - [x] Pre-commit hook for git

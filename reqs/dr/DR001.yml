@@ -3,9 +3,9 @@ derived: false
 header: ''
 level: 1.0
 links:
-- SR001: null
+- SR001: D6z3qMIVXcwRXGEQUmLUWj1CJAIBPB4EIjCHLmyOGhs=
 normative: true
 ref: ''
-reviewed: null
+reviewed: yK_ieGQxei8pyBeM3UlTLpB9IkiyoOZePkx2LD9h-ZQ=
 text: |
   The output shall be the result of one or more random function(s).

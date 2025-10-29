@@ -3,10 +3,10 @@ derived: false
 header: ''
 level: 1.5
 links:
-- SR003: null
+- SR003: y9DoH9J83YF-UM2Tc-nat55g7Us4ndZu996hozGBFjk=
 normative: true
 ref: ''
-reviewed: null
+reviewed: 6C4ztVl4kcySmZJtqB4ftkohKI_M301_RVXoJWg4uSs=
 text: |
   Symmetries
   The program shall contain a software module implementing one or more transformation on the start grid, using the sudoku symmetries.

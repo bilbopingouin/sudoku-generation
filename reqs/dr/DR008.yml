@@ -3,10 +3,10 @@ derived: false
 header: ''
 level: 1.7
 links:
-- DR006: null
+- DR006: 841oNpvoS1f7fZP0mYm3zfR09nSl5fFhWMzT4Hxnn-g=
 normative: true
 ref: ''
-reviewed: null
+reviewed: GlR1Q4ECQFVFdRYg4MhXB_j5X69IIsCWyiFOHkxXNbE=
 text: |
   Symmetries
   The transformation module shall include a function to rotate a sudoku grid with 90°, 180° or 270°.

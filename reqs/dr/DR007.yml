@@ -3,10 +3,10 @@ derived: false
 header: ''
 level: 1.6
 links:
-- DR006: null
+- DR006: 841oNpvoS1f7fZP0mYm3zfR09nSl5fFhWMzT4Hxnn-g=
 normative: true
 ref: ''
-reviewed: null
+reviewed: wgn5FdsDiqFjHa02_k2r9NP7GjPi2K2GIWj93YQeVYY=
 text: |
   Symmetries
   The transformation module shall include a function which can exchange the digits. E.g. from 123456789 to 352689147.
