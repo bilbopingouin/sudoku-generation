@@ -1,6 +1,9 @@
 name: Sphinx
 
-on: [push]
+on: 
+  push:
+    branches:
+      - 'main'
 
 jobs:
   generate-deploy:
