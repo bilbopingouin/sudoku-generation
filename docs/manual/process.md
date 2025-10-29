@@ -3,9 +3,9 @@
 - [x] Requirements
   - [x] Requirements documentation using doorstop
   - [x] Printing the requirements on documents in github
-- [ ] Documentation
+- [x] Documentation
   - [x] Documentation using sphinx
-  - [ ] Automatic generation of the documentation when pushing 
+  - [x] Automatic generation of the documentation when pushing 
 - [x] Quality
   - [x] Static analysis of the code
     - [x] Makefile target to analyse the code

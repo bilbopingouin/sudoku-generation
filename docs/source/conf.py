@@ -29,7 +29,8 @@ extensions = [
                                 # can be used to test some functions
         'sphinx.ext.autodoc',   # Allows to browse the code to get the
                                 # function description directly from there
-        'sphinx.ext.autosummary',  # Allows to automatise the autodoc
+        'sphinx.ext.autosummary',   # Allows to automatise the autodoc
+        'sphinx_markdown_builder',  # Generate a markdown documentation
         ]
 
 templates_path = ['_templates']
